@@ -58,7 +58,6 @@ O projeto simulou a rotina completa de um time de desenvolvimento ágil:
 - **[Playwright](https://playwright.dev/):** Automação de testes de interface gráfica (UI).
 - **[Node.js](https://nodejs.org/):** Ambiente de execução JavaScript.
 - **[Gherkin / BDD](https://cucumber.io/docs/gherkin/):** Padronização e escrita dos cenários de teste.
-- **[Postman](https://www.postman.com/) / [Newman](https://www.npmjs.com/package/newman):** Validação de rotas de API.
 
 ---
 
