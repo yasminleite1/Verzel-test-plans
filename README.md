@@ -74,13 +74,12 @@ O projeto simulou a rotina completa de um time de desenvolvimento ágil:
 ├── docs/                       # Plano de Testes, Premissas e Templates de Bug Report
 └── README.md                   # Documentação principal do repositório
 
-Como Executar a Automação
+## Como Executar a Automação
 Pré-requisitos
 Node.js v20 ou superior
-
 Git instalado
 
-Passo a passo
+## Passo a passo
 1 - Clonar o repositório: 
 git clone [https://github.com/yasminleite1/Verzel-test-plans.git](https://github.com/yasminleite1/Verzel-test-plans.git)
 cd Verzel-test-plans
@@ -97,8 +96,7 @@ npx playwright install chromium
 5 - Executar os testes:
 npx playwright test
 
-Cenários de Teste Automatizados
-## 🧪 Cenários de Teste Automatizados
+## Cenários de Teste Automatizados
 
 A suíte de automação cobre os principais fluxos de regressão e validação de regras de negócio:
 
@@ -111,11 +109,11 @@ A suíte de automação cobre os principais fluxos de regressão e validação d
 > **Nota sobre o CT-13:** O teste do **CT-13** falha de propósito na suíte para evidenciar o **BUG-003**, onde a loja cobra frete de R$ 19,90 mesmo com o subtotal atingindo o valor exato de R$ 200,00.
 
 
-Relatórios de Execução
+## Relatórios de Execução
 Após a execução dos testes dentro da pasta automação, o relatório HTML é salvo automaticamente na pasta bug-reports/. Para visualizá-lo de forma interativa no navegador:
 npx playwright show-report ../bug-reports
 
-Gestão de Bugs
+## Gestão de Bugs
 Os defeitos identificados durante os testes manuais e automatizados foram mapeados e padronizados no formato CTFL (16 campos) na pasta bug-reports/:
 [BUG-001] - Campo de nome aceita emoji como sobrenome e permite finalizar a compra
 [BUG-002] - Campo de e-mail aceita endereço inválido durante a finalização da compra
